@@ -1,0 +1,41 @@
+// pull images
+docker pull ubuntu:latest
+
+// run container
+docker run IMAGE NAME 
+
+// run container in background
+docker run -d IMAGE NAME
+
+// run container with name
+docker run --name CONTAINER NAME IMAGE NAME
+
+// run container with port mapping
+docker run -p 80:80 IMAGE NAME
+
+// start container
+docker start CONTAINER NAME
+
+// stop container
+docker stop CONTAINER NAME
+
+// remove container
+docker rm CONTAINER NAME
+
+// remove images
+docker rmi IMAGE NAME
+
+// list all containers
+docker ps -a
+
+// list all images
+docker images
+
+// list all running containers
+docker ps
+
+// use environment variables
+docker run -e APP_COLOR=blue IMAGE NAME
+
+// get inside container
+docker exec -it CONTAINER NAME bash
