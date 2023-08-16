@@ -39,3 +39,6 @@ docker run -e APP_COLOR=blue IMAGE NAME
 
 // get inside container
 docker exec -it CONTAINER NAME bash
+
+// port forwarding ex
+0.0.0.0:9000->9000/tcp (host to container) 
