@@ -1,3 +1,6 @@
+// build dockerfile
+docker build -t IMAGE_NAME -f DOCKERFILE NAME
+
 // pull images
 docker pull ubuntu:latest
 
