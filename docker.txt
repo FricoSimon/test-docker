@@ -4,6 +4,9 @@ docker build -t IMAGE_NAME -f DOCKERFILE NAME .
 // pull images
 docker pull ubuntu:latest
 
+// delete docker images
+docker rmi IMAGE_ID
+
 // run container
 docker run IMAGE NAME 
 
